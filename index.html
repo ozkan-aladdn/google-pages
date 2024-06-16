@@ -1,45 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" class="css">
-</head>
+    <link rel="stylesheet" href="style.css" class="css" />
+  </head>
 
-<body>
-    <header class="ust">
-        <ul class="list1">
-            <li>About</li>
-            <li>Store</li>
-        </ul>
-        
-        <div class="iconsag"><ul class="list2">
-            <li>Gmail</li>
-            <li>Images</li>
-        </ul><section class="iconmenu">
-            <img src="./icon-menu.jpg" alt="menü">
-        </section>
+  <body>
+    <div class="container">
+      <header class="nav">
+        <div class="left">
+          <h3>About</h3>
+          <h3>Store</h3>
+        </div>
 
-        <button>
-            <a href=""></a>Sign In
-        </button></div>
-        
-    
+        <div class="right">
+          <h3>Gmail</h3>
+          <h3>Images</h3>
+          <img src="./icon-menu.jpg" alt="icon-menu" class="icon-menu" />
+          <button class="sign-in">Sign In</button>
+        </div>
+      </header>
 
+      <main>
+        <div class="center-main">
+          <div><img src="./googlelogo.png" alt="google" /></div>
+          <div class="searchbar">
+            <div class="magni-div">
+              <img
+                src="./Magnifying_glass_icon.png"
+                alt="magnifying"
+                class="magni"
+              />
+            </div>
+            <div><input type="text" name="search-text" id="search-text" /></div>
+            <div class="microfone">
+              <img
+                src="./google_microphone.png"
+                alt="microphone"
+                class="micro"
+              />
+            </div>
+          </div>
+          <div class="main-button">
+            <button class="main-button touch">Google Search</button>
+            <button class="main-button touch">I'm Feelling Lucky</button>
+          </div>
+          <div>Other Languages you can use Google: <span>English</span></div>
+        </div>
+      </main>
 
-
-
-    </header>
-
-
-
-
-    <main></main>
-    
-    <footer></footer>
-
-
-
-</body>
+      <footer>
+        <div class="footer-top">Canada</div>
+        <hr />
+        <div class="footer-bottom">
+          <div class="left-footer">
+            <h4>Advertising</h4>
+            <h4>Business</h4>
+            <h4>How Search Works</h4>
+          </div>
+          <div class="right-footer">
+            <h4>Privacy</h4>
+            <h4>Terms</h4>
+            <h4>Setting</h4>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
